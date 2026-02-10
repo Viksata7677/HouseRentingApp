@@ -14,7 +14,7 @@ pipeline{
         }
         stage("Build solutions"){
             steps{
-                bat 'donet build'
+                bat 'dotnet build'
             }
         }
         stage("Run tests"){
